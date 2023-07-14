@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+:root{
+
+    --cor--principal: black;
+    --cor--secundaria: #ffffff7e;
+    --cor--efeito: rgba(7, 7, 7, 0.568);
+
+    --fonte--principal: 'Krona one', sans-serif;
+    --fonte--secundaria: 'Montserrat', sans-serif;
+
+}
+
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+
+    background-image: url('/assets/animal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    caret-color: transparent;
+
+}
+h1{
+    font-family: var(--fonte--principal);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.container{
+
+    border-radius: 10px 60px;
+    background-color: var(--cor--secundaria);
+    box-shadow: 3px 3px var(--cor--efeito);
+    padding: 40px;
+    text-align: center;
+}
+
+.divisao{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_filho{
+    caret-color: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 18;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.input_filho::placeholder{
+    color: black;
+}
+
+.divisao_box{
+    display: flex;
+    font-family: var(--fonte--secundaria);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.divisoes{
+    padding: 10%;
+}
+
+.botao{
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: var(--fonte--secundaria);
+    cursor: pointer;
+    outline: none;
+    transition: all .2s ease-out;
+
+
+}
+
+.botao:hover{
+    background-color: #235848;
+    font-weight: bold;
+}
+
+.link1{
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+.bota{
+    margin-top: 20%;
+    background-color: #235848;
+    padding: 8px;
+    border-radius: 10px 50px;
+    font-family: var(--fonte--secundaria);
+    cursor: pointer;
+    outline: none;
+}
