@@ -12,3 +12,5 @@ A simple login screen.
 
 ## Criado por
 ## Charles GS
+
+* Comando git push
